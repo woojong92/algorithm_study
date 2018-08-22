@@ -1,6 +1,6 @@
 /*
-	ÇÕºÐÇØ ¹®Á¦
-	ÃâÃ³: https://www.acmicpc.net/problem/2225 
+	¿¿¿
+	¿¿: https://www.acmicpc.net/problem/2225 
 */
 
 #include <iostream>
