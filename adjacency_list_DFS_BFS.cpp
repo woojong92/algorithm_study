@@ -16,10 +16,12 @@ void dfs(int node) {
     printf("%d ",node);
     for (int i=0; i<a[node].size(); i++) {
         int next = a[node][i];
+        //아직 방문하지 않았다면 
         if (check[next] == false) {
             dfs(next);
         }
     }
+    //더이상 방문할 정점이 없으니, 재귀호출을 종료하고 이전 정점으로 돌아간다. 
 }
 void bfs(int start) {
     queue<int> q;

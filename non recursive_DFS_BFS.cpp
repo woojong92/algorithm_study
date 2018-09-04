@@ -1,5 +1,5 @@
 /*************************************************************************
-	비재귀 구현 DFS&BFS
+	비재귀 구현 DFS_BFS
 	코드원본- https://gist.github.com/Baekjoon/d2e726b5f85bd8c17200 
 **************************************************************************/
 
@@ -11,7 +11,7 @@
 #include <queue>
 using namespace std;
 vector<int> a[1001];
-bool check[1001];
+bool check[1001];	
 void dfs(int node) {
     stack<pair<int,int>> s;
     s.push(make_pair(node,0));
