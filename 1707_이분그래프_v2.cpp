@@ -27,6 +27,7 @@ bool dfs(int node, int c) {
     }
     return true;
 }
+
 int main() {
     int t;
     scanf("%d\n",&t);
