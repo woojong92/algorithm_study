@@ -11,8 +11,8 @@
 using namespace std;
 
 int a[100001]; //함께하고 싶은 학생들 저장 
-int d[100001]; //
-int s[100001]; // 
+int d[100001]; //cnt 저장 
+int s[100001]; //같은 싸이클 저장 
 
 int dfs(int x, int cnt, int &step){
 	if(d[x] != 0){
