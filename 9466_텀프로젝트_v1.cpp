@@ -21,7 +21,6 @@ int dfs(int x, int cnt, int &step){
 		}	
 		return cnt-d[x];
 	}
-	
 	d[x]=cnt;
 	s[x]=step;
 	return dfs(a[x], cnt+1, step);
