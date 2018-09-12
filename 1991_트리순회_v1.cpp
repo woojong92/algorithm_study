@@ -1,6 +1,7 @@
 /***********************************************************
 	트리순회
 	문제출처- https://www.acmicpc.net/problem/1991 
+	코드원본- https://gist.github.com/Baekjoon/bcca75d6bde538e0be3a  
 ***********************************************************/
 
 #include <iostream>
