@@ -2,9 +2,14 @@
 	 APSS 6.7 여행하는 외판원 문제를 해결하는 재귀 호출 알고리즘(Travleling Salesman Problem, TSP) 
 	 알고리즘 - 완전탐색 
 *******************************************************************/
+#include <iostream>
+#include <vector>
+#include <limits>
+using namespace std;
 
 int n;
 double dist[MAX][MAX]; //두 도시 간의 거리를 저장하는 배열
+
 //path: 지금까지 만든 경로
 //visited: 각 도시의 방문 여부
 //currentLength: 지금까지 만든 경로의 길이
@@ -29,4 +34,52 @@ double shortestPath(vector<int>& path, vector<bool>& visited, double currentLeng
 		path.pop_back(); 
 	} 
 	return ret;
+}
+
+int main(){
+	//tc: 테이스 케이스 수 
+	int tc;
+	scanf("%d", &tc);
+	
+	while(tc--){
+		//도시의 개수를 입력 받는다. 
+		scanf(" %d", &n); 
+		
+		//두 도시간의 길이 저장
+		scanf(" %d %d") 
+	} 
+	
+	return 0;
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
