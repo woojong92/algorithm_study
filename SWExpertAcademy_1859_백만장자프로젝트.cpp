@@ -1,3 +1,8 @@
+/**
+*	1859. 백만장자 프로젝트 
+* 
+*/
+
 #include <iostream>
 
 using namespace std;
