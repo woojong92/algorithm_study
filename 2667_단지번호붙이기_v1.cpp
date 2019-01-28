@@ -69,6 +69,13 @@ int main(){
 		}
 	}
 	
+	for(int i=0; i<n; i++){
+		for(int j=0; j<n; j++){
+			printf("%d", group[i][j]);
+		}
+		printf("\n");
+	}
+	
 	sort(ans+1, ans+cnt+1);
 	
 	for(int i=1; i<=cnt; i++){
