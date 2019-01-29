@@ -2,7 +2,6 @@
 	테트로미노_v2
 	https://www.acmicpc.net/problem/14500	
 ***********************************************************/
-
 #include <iostream>
 using namespace std;
 int a[500][500];
@@ -40,7 +39,7 @@ int main() {
 	int ans =0;
 	
 	for( int i=0; i<n; i++ ){
-		for( int j=0; j<n; j++ ){
+		for( int j=0; j<m; j++ ){
 			// block의 경우의 수 만큼 검사 
 			for( int k=0; k<19; k++ ){
 				bool ok = true;
