@@ -13,7 +13,7 @@ int main() {
 	// start; 1- > 10 -> 100 -> ...
 	// end; 9 -> 99 -> 999 -> ...
 	
-	for( int start=1,len=1; start<n ; start*=10, len++ ){
+	for( int start=1,len=1; start<=n ; start*=10, len++ ){
 		int end = start*10-1;
 		
 		if( end > n ) {
