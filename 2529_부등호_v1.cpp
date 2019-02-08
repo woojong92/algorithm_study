@@ -32,13 +32,13 @@ int main() {
 		scanf(" %c", &a[i]);
 	}
 	
-	for(int i=0; i<k; i++ ) printf("%c ", a[i]);
-	printf("\n");
+	//for(int i=0; i<k; i++ ) printf("%c ", a[i]);
+	//printf("\n");
 	
-	vector<int>	small(10);
-	vector<int> big(10);
+	vector<int>	small(k+1);
+	vector<int> big(k+1);
 	 
-	for( int i=0; i<=9; i++) {
+	for( int i=0; i<=k; i++) {
 		small[i] = i;
 		big[i] = 9-i;
 	}
