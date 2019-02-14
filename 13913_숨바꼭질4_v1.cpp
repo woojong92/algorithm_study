@@ -20,7 +20,6 @@ void print(int n, int m) {
     cout << m << ' ';
 }
 
-
 // 수빈이는 걷거나 순간이동 할 수 있다. 
 // 걷는다면 1초 후 x-1 또는 x+1로 이동, 순간이동하면 1초에 2*x의 위치로 이동 
 // 수빈이가 동생을 찾을 수 있는 가장 빠른 시간이 몇 초인가? 
@@ -68,7 +67,7 @@ int main() {
 	print(n, k);
 	/* print with stack
     stack<int> ans;
-    for (int i=m; i!=n; i=from[i]) {
+    for (int i=k; i!=n; i=from[i]) {
         ans.push(i);
     }
     ans.push(n);
