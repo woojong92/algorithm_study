@@ -19,9 +19,10 @@ int main() {
 		}
 	}
 	
+	// i-1, j-1 범위를 검사하지 않은 이유 : a[i][j] >= 0 
 	for( int i=1; i<=n; i++) {
 		for( int j=1; j<=m; j++ ){
-			d[i][j] = max( max(d[i-1][j], d[i][j-1]), d[i-1][i-1]) + a[i][j];
+			d[i][j] = max( max(d[i-1][j], d[i][j-1]), d[i-1][j-1]) + a[i][j];
 		}
 	}
 	
