@@ -9,3 +9,12 @@ int main ()
     std::cout << *rit;
   return 0;
 }
+
+
+
+
+
+
+
+
+
